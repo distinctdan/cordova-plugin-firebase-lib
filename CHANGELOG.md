@@ -1,5 +1,21 @@
 # Change Log
 
+## v5.1.0
+
+1. iOS: Downgrading the Firebase iOS dependency to 5.x to make the iOS app build fixed.
+2. Common: Removed deprecated `getInstanceId` method. Use `getToken` instead.
+
+## v5.0.0
+
+1. iOS: Using CocoaPods to manage Firebase dependencies hence requires `cordova-cli` to be minimum `v9.0.0`.
+2. Docs: Detailed instructions to get the Cordova environment versions and different major releases to be used.
+
+## v4.1.0
+
+1. Breaking change: Removed method `logJSError` (introduced in v3.2.0) and merged that into `logError` message.
+2. Android: Handling a few edge cases for `logError` method.
+3. Docs: Generating "Table of Contents" for README & API docs.
+
 ## v4.0.1
 
 1. Fixed typo in `firebase-browser.js`
